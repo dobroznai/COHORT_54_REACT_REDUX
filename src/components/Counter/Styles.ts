@@ -1,27 +1,26 @@
-import styled from "@emotion/styled";
+import styled from "@emotion/styled"
 
-export const Counter_wrapper = styled.div`
+export const CounterWrapper = styled.div`
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
   gap: 15px;
-  width: 400px;
+  min-width: 400px;
+  max-width: 1000px;
   height: fit-content;
-  border: 2px solid black;
-  border-radius: 10px;
-
+  border: 1px solid black;
   background-color: white;
-  padding: 20px;
-
   color: black;
-`;
+  padding: 20px;
+  border-radius: 10px;
+`
 
-export const Button_control = styled.div`
-  width: 100px;
-`;
+export const ButtonControl = styled.div`
+  min-width: 100px;
+  max-width: 100px;
+`
 
 export const Count = styled.p`
   font-size: 40px;
   font-weight: bold;
-`;
+`
